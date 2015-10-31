@@ -4,6 +4,8 @@ LANG: C++
 PROG: gift1
 */
 //gift1: greedy gift givers
+//difficulty is similar to NOIP T1
+//easy solution: using stl map
 
 #include <iostream>
 #include <fstream>
