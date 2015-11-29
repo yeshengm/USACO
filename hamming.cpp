@@ -36,15 +36,13 @@ bool isValid(int n) {
 int main() 
 {
 	fin >> N >> B >> D;
-	for (int i = 0; i < 256 && sz != N; ++i) {
+	for (int i = 0; i < 256 && sz != N; ++i)
 		if (isValid(i))
 			a[sz++] = i;
-	}
-	for (int i = 0; i < sz - 1; ++i) {
+	for (int i = 0; i < sz - 1; ++i)
 		if ((i + 1) % 10 == 0)
 			fout << a[i] << endl;
 		else fout << a[i] << ' ';
-	}
 	fout << a[sz - 1] << endl;
 	return 0;
 }

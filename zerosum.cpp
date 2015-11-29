@@ -32,7 +32,6 @@ bool isValid() {
 			formerOp = op[i];
 		}
 	}
-	//fout << res << " ";
 	if (res == 0) return true;
 	else return false;
 }
@@ -66,10 +65,3 @@ int main()
 	dfs(1);
 	return 0;
 }
-
-/*1+2-3+4-5-6+7
-  1+2-3-4+5+6-7
-  1-2_3+4+5+6+7
-        1-2_3-4_5+6_7
-        1-2+3+4-5+6-7
-        1-2-3-4-5+6+7*/
