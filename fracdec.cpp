@@ -3,6 +3,7 @@ ID: mayeshe1
 LANG: C++
 PROG: fracdec
 */
+//there exists a special method: calculate non-recursive part first
 #include "iostream"
 #include "fstream"
 using namespace std;
@@ -13,7 +14,7 @@ int N, D;
 int yushu[100000];
 int shang[100000];
 bool exist[100000];
-bool find = false;
+bool found = false;
 
 int getBit(int num) {
 	int bit = 0;
@@ -53,13 +54,13 @@ int main() {
 				if (yushu[i] == yushu[weishu + 1]) {
 					s = i;
 					t = weishu;
-					find = true;
+					found = true;
 					break;
 				}
 			}
 		}
 		exist[yushu[weishu + 1] / 10] = true;
-		if (find) break;
+		if (found) break;
 		++weishu;
 	}
 	int bit = getBit(N / D) + 1;
