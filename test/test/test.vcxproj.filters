@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dualpal.cpp">
+    <ClCompile Include="cowtour.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

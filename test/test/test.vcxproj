@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dualpal.cpp" />
+    <ClCompile Include="cowtour.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4B69879F-A09C-46D5-8CBA-D51CD5AD22D5}</ProjectGuid>
