@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cowtour.cpp">
+    <ClCompile Include="comehome.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
