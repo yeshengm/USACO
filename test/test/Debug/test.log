@@ -1,4 +1,2 @@
-﻿  contact.cpp
-c:\users\yesheng\desktop\oj\usaco\test\test\contact.cpp(40): warning C4018: '<=': signed/unsigned mismatch
-c:\users\yesheng\desktop\oj\usaco\test\test\contact.cpp(63): warning C4018: '<': signed/unsigned mismatch
+﻿  frac4.cpp
   test.vcxproj -> C:\Users\Yesheng\Desktop\OJ\USACO\test\Debug\test.exe
